@@ -6,3 +6,4 @@ Este proyecto es realizado por:
 - SantiProGamer
 - Shaggy
 - m4tteinto
+- Zero
