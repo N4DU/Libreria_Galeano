@@ -11,10 +11,56 @@ body {
 }
 
 header {
-    background: #86f586;
+    background: #cd5478;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+header img{
+    width: 140px;
+}
+
+header input {
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+header a{
+    color: #d50248;
+    text-decoration: none;
+    background-color: #f8f4f1;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+header a:hover{
+    background: #d7024a;
+}
+
+nav {
+    background: #6228de;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
 }
