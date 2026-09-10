@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1px;
 }
 
 header img{
@@ -45,7 +45,7 @@ header a:hover{
 }
 
 nav {
-    background: #6228de;
+    background: #cd5478;
     display: flex;
     justify-content: center;
     gap: 20px;
