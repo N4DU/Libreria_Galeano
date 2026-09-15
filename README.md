@@ -1,7 +1,7 @@
 HOLAAAAA
 
 Este proyecto es realizado por:
-- Nadu
+- Nadu :3
 - Squeekpee
 - SantiProGamer
 - Shaggy
