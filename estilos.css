@@ -64,3 +64,60 @@ nav a {
 nav a:hover {
     background: rgba(255, 255, 255, 0.15);
 }
+
+.Carrusel {
+    max-width: 1680px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.Carrusel img {
+    width: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Carrusel :active {
+    overflow: hidden;
+    gap: 0;
+}
+
+#btnMode {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background: #cd111d;
+    color: coral;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#btnMode :hover {
+    background: lightpink;
+}
+
+.productos {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    width: 230px;
+    background: blueviolet;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15);
+    transition: 0.3S;
+}

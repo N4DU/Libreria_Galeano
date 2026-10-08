@@ -5,3 +5,9 @@ Este proyecto es realizado por:
 - Shaggy
 - m4tteinto
 - Zero
+
+
+
+⠀⠀⠀
+
+Proyecto patrocinado por Opera GX 
